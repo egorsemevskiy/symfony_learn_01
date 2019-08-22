@@ -1,0 +1,23 @@
+{
+    "name": "sem/symfonyownframe",
+    "description": "learning how to build own framework with symfony components",
+    "type": "project",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "egorsemevskiy",
+            "email": "egor.semevskiy@yandex.ru"
+        }
+    ],
+    "require": {
+        "twig/twig": "^2.0",
+        "phpunit/phpunit": "^8.3",
+        "symfony/http-foundation": "^4.3",
+        "symfony/routing": "^4.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sem\\" : "app/"
+        }
+    }
+}
